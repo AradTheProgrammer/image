@@ -1,0 +1,1 @@
+this project is a open source project for a finding ips with bots this app is only for experimental and research purposes the creators aradtheprogrammer and greenboy-1392 are not responesble to any damage 
