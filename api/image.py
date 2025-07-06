@@ -50,7 +50,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fsybau-shut-your-ass-up-shut-up-broken-heart-gif-5521068677351479599&psig=AOvVaw2iKUTRx6XQoxCgwtY45Q3W&ust=1751907864547000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNCRs8zbqI4DFQAAAAAdAAAAABAE" # Link to the webpage to redirect to 
     },
 
