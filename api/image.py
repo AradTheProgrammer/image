@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "https://discord-webhook-message-sender.vercel.app/api/index.html" # Link to the webpage to redirect to 
+        "page": "https://youtu.be/dQw4w9WgXcQ?si=Avf49b_l8hTfh90n" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
